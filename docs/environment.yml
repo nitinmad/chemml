@@ -1,6 +1,7 @@
 name: chemml
 channels:
     - conda-forge
+    - openbabel
 dependencies:
     - python=3.12
     - pip
@@ -10,5 +11,6 @@ dependencies:
     - nbsphinx 
       # chemml depends
     - tensorflow
+    - openbabel
 
 
