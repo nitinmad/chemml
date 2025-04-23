@@ -7,10 +7,12 @@ dependencies:
     - sphinx
     - sphinx_rtd_theme
     - sphinx-automodapi
-    - nbsphinx
-
       # chemml depends
     - tensorflow
+    - pip:
+        - nbsphinx
+
+
 
 channels:
     - openbabel
