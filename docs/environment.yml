@@ -3,17 +3,12 @@ channels:
     - conda-forge
 dependencies:
     - python=3.12
+    - pip
     - sphinx
     - sphinx_rtd_theme
     - sphinx-automodapi
+    - nbsphinx 
       # chemml depends
     - tensorflow
 
-
-
-channels:
-    - openbabel
-
-dependencies:
-    - openbabel
 
